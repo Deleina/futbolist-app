@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Lista de Futbolistas App ⚽  🚀 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+Una aplicación simple en React que consume y muestra una lista de futbolistas desde una API backend. 
+La aplicación muestra los detalles de los futbolistas en una tabla y permite a los usuarios ver más detalles de cada futbolista haciendo clic en una fila de la tabla.
 
-In the project directory, you can run:
+## Características
 
-### `npm start`
+- Muestra una lista de futbolistas en una tabla.
+- Obtiene datos de futbolistas desde una API backend.
+- Muestra información detallada sobre un futbolista en un alert al hacer clic en una fila de la tabla.
+- Utiliza Bootstrap para el diseño.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Cómo Empezar
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Requisitos Previos
 
-### `npm test`
+- Node.js (v16 o superior)
+- npm (v8 o superior)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalación
 
-### `npm run build`
+1. Clona el repositorio:
+   ```bash
+     git clone https://github.com/tuusuario/tu-repositorio.git
+     cd tu-repositorio
+   ```
+   
+2. Instala las dependencias:
+    ```bash
+     npm install
+    ```
+    
+3. npm start
+   
+   ```bash
+     npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Abre tu navegador y ve a **http://localhost:3000** para ver la aplicación en funcionamiento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Endpoints de la API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* `GET /futbolista`: Obtiene una lista de todos los futbolistas.
+  
+  ![](img/lista-futbolista.jpeg)
+  
+* `GET /futbolista/{id}`: Obtiene información detallada sobre un futbolista específico por ID.
+  
+  ![](img/alert-image.jpeg)
 
-### `npm run eject`
+### Uso
+Haz clic en cualquier fila de la tabla para ver la información detallada del futbolista seleccionado. Los detalles se mostrarán en un alert.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contribuciones
+Si deseas contribuir, siéntete libre de bifurcar el repositorio y enviar pull requests. Para problemas o solicitudes de características, por favor abre un issue en el repositorio. 😊 
